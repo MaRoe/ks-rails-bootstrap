@@ -3,7 +3,7 @@ require "fileutils"
 require "shellwords"
 
 RAILS_REQUIREMENT = ">= 7.0.0"
-REPO_LINK = "https://github.com/alec-c4/ks-rails-bootstrap.git"
+REPO_LINK = "https://github.com/MaRoe/ks-rails-bootstrap.git"
 
 def apply_template!
   assert_minimum_rails_version
